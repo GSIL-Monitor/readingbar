@@ -1,0 +1,40 @@
+<?php
+    return [
+    	'top_menu_title'=>'书籍库存日志',
+        'menu_title' =>'书籍库存日志',
+        'head_title'=>'书籍库存日志',
+    	'list_title'=>'书籍库存日志列表',
+        'columns'=>[
+        		'id'=>'日志id',
+        		'book_id'=>'书籍ID',
+        		'book_name'=>'书籍名称',
+        		'ISBN'=>'ISBN',
+        		'serial'=>'库存编号',
+        		'memo'=>'备注',
+        		'status'=>'库存状态',
+        		'student'=>'关联学生昵称',
+        		'operator'=>'记录人',
+        		'created_at'=>'创建日期',
+        		'operation'=>'操作'
+        ],
+    	'status'=>[
+    		1=>'在库',
+    		2=>'在途',
+    		3=>'借出',
+    		4=>'锁定',
+    		5=>'报损',
+    		6=>'管理员借出'
+    	],
+    	'btns'=>[
+    			'damaged'=>'报损',
+    			'select_status'=>'请选择状态',
+    			'select_type'=>'请选择search类型',
+    			'select_serial'=>'请选择库存编号'
+    	],
+    	'messages'=>[
+			'book_id.required'=>'book_id参数必填',
+    		'serial.required'=>'serial参数必填',
+    		'book_id.exsist'=>'书籍不存在',
+    		'serial.exsist'=>'书籍库存不存在',
+    	]
+	];

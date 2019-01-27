@@ -1,0 +1,1 @@
+ <a href="{{ $link }}" target="_blank" class=" t-btn-index-wap {{ $class }}">{{ $name }}</a>

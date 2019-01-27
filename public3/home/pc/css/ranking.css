@@ -1,0 +1,81 @@
+.ranking-img01{ margin: 0 auto 70px auto; display: block;}
+.ranking-main{
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    border-radius: 9px;
+    padding: 90px  0 3px 0;
+    -moz-box-shadow: 1px 2px 8px #919191;
+    -webkit-box-shadow: 1px 2px 8px #eee;
+    box-shadow: 1px 2px 8px #eee;
+    margin-top: 35px;
+    border-top: solid 8px #4bd2bf;
+    margin-bottom: 49px;
+    }
+.ranking-main-01{width: 370px;height: 92px;position: absolute;top: -47px;left: 50%;margin-left: -186px;/* margin-bottom: 24px; */}
+.ranking-main-02{margin-top: 30px;padding-left: 60px;padding-right: 60px;border-top: solid 1px #eee;border-bottom: solid 1px #eee;height: 40px;position: relative;margin-top: 45px;}
+.ranking-title1{width: 286px;height: 87px;position: absolute;top: -62px;left: 50%;margin-left: -143px;}
+.ranking-title2{width: 285px;height: 83px;position: absolute;top: -62px;left: 50%;margin-left: -142px;}
+
+.ranking-main-02 span{ line-height:  40px; font-size: 14px; color: #929292;}
+.ranking-main-02 span b{ color: #fe5c5c; font-size: 18px; font-weight: normal;}
+
+.ranking-main-03{padding-left: 60px;padding-right: 60px;padding-bottom: 64px;padding-top: 10px;overflow: hidden;position: relative;width: 100%;}
+.ranking-main-03 ul li{width:202px;height: 166px;display: block;position: relative;overflow: hidden;float: left;}
+.ranking-book-bj{ background: url("../images/ranking/ranking-ico.png") no-repeat; width:202px; height: 166px; left: 0; top: 0; position: absolute;}
+.ranking-book-heard{width: 46px;height: 46px;display: block;overflow: hidden;position: absolute;top: 25px;left: 77px;}
+.ranking-book-name{ color: #333333;font-size: 14px; margin-top: 75px;display: block;width: 100%;text-align: center;}
+.ranking-book-mc{color: #333333;font-size: 14px;margin-top: 3px;display: block; width: 100%; text-align: center; }
+.ranking-book-grade{color: #333333;font-size: 14px;margin-top: 3px;display: block;text-align: center;width: 100%;}
+.ranking-book-1{margin-left: 230px;}
+.ranking-book-2{margin-left: 195px;}
+.ranking-book-3{margin-left: 51px;margin-top: -59px;}
+.ranking-book-4{margin-left: 199px; margin-top: -43px;}
+.ranking-book-5{margin-left: 221px; margin-top: -81px;}
+.ranking-book-6{margin-left: -868px;margin-top: 73px;}
+.ranking-book-7{margin-top: -17px;margin-left: 32px;}
+.ranking-book-8{margin-left: 829px;margin-top: -54px;}
+.ranking-book-9{margin-top: -137px;margin-left: 38px;}
+.ranking-book-10{ margin-top: -194px; margin-left: 189px;}
+
+.reading-main{padding-left: 60px;padding-right: 60px;padding-bottom: 64px;padding-top: 10px;overflow: hidden;position: relative;width: 100%;}
+.reading-main ul li{width:193px;height: 185px;display: block;position: relative;float: left; background: url("../images/ranking/ranking-ico2.png") no-repeat;}
+.reading-book-heard{width: 48px;height: 62px;position: absolute;margin-left: 16px;padding-top: 16px;overflow: hidden;}
+.reading-book-heard img{}
+.reading-main-bj{left: 0;top: 0;position: absolute;background: url("../images/ranking/ranking-ico3.png") no-repeat;width: 48px;height: 62px;}
+.reading-book-name{color: #333333;font-size: 14px;margin-top: 60px;display: block;width: 100%;text-align: center;}
+.reading-book-mc{color: #333333;font-size: 14px;margin-top: 3px;display: block; width: 100%; text-align: center; }
+.reading-book-grade{color: #333333;font-size: 14px;margin-top: 3px;display: block;text-align: center;width: 100%;}
+.reading-book-1{margin-left: 230px;margin-top: 20px;}
+.reading-book-2{margin-left: 223px;margin-top: 47px;}
+.reading-book-3{margin-left: 54px;margin-top: -45px;}
+.reading-book-4{margin-left: 199px; margin-top: -43px;}
+.reading-book-5{margin-left: 211px;margin-top: -116px;}
+.reading-book-6{margin-left: -797px;margin-top: 99px;}
+.reading-book-7{margin-top: -17px;margin-left: 32px;}
+.reading-book-8{margin-left: 839px;margin-top: -61px;}
+.reading-book-9{margin-top: -184px;margin-left: 38px;}
+.reading-book-10{margin-top: -194px;margin-left: 219px;}
+
+.ranking-main2{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    border-radius: 9px;
+    padding: 20px 0 20px 0;
+    -moz-box-shadow: 1px 2px 8px #919191;
+    -webkit-box-shadow: 1px 2px 8px #eee;
+    box-shadow: 1px 2px 8px #eee;
+    margin-top: 0;
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding-left: 60px;
+    padding-right: 60px;
+    }
+.ranking-main2-title{ width: 100%; overflow: hidden;}
+.ranking-main2-title img{ display: block; margin: 0 auto;}
+.ranking-news{}
+.ranking-news ul li{background: url("../images/ranking/d_25.jpg") no-repeat left center;color: #454545;font-size: 14px;line-height: 31px;padding-left: 15px;}

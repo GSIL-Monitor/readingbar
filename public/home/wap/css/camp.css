@@ -1,0 +1,37 @@
+.imgauto{margin: 0 auto;display: block;width: 90px;}
+.camp_11-txt{font-weight: bold; font-size: 2.0rem;color: #00a8ff;text-align: center;overflow: hidden;padding-left: 20px;padding-right: 20px;}
+.camp_11-txt b{font-weight: bold; color: #ff0000;font-size: 2.0rem;}
+.camp_link { color: #fff; font-size: 1.6rem; border:0;background: #48cbb9;width: 100px;margin: 20px auto;display: block;height: 35px;border-radius: 8px;}
+.camp_mp3{padding-left: 10px;padding-right: 10px;overflow: hidden;position: relative;}
+.camp_player{
+    border: 0;
+    background: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -11px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+
+.camp_close{
+    border-radius: 100%;
+    background: #48cbb9;
+    opacity: 1;
+    color: #fff;
+    line-height: 23px;
+    margin-top: 0px;
+}
+.camp_modal{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.camp_modal span{
+    color: #999999;
+    font-size: 1.4rem;
+    display: block;
+}
+.camp_modal a{
+    color: #32b7a4;
+    line-height: 3.0rem;
+}

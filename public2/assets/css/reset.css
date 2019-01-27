@@ -1,0 +1,21 @@
+#side-menu .nav-header div{text-align:center}
+
+.pagination-sm li input,.pagination-sm li input:focus{
+  height:27px;
+  width: 50px;
+  box-shadow: none;
+  border-color: #d2d6de;
+  float: right!important;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid rgb(221,221,221);
+  border-radius: 0px;
+  border-left: 0px;
+  float:left !important;
+  padding:5px;
+  text-align: center;
+}
+.pagination-text {
+  line-height: 27px;
+}

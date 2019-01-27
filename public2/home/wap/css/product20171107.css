@@ -1,0 +1,142 @@
+section{
+	height:100%;
+	display:block;
+	background:#f2f2f2;
+}
+#product  .am-tabs{
+	margin:0px;
+}
+.am-tabs-nav li{
+	background:#fff;
+}
+.am-tabs-default .am-tabs-nav>.am-active a {
+	background:#fff;
+	color:#4fb5a7;
+}
+.am-tabs-bd{
+	padding:15px;
+	padding-bottom:20px;
+	background:#f2f2f2;
+}
+.am-tab-panel{
+	background:#fff;
+	border:1px dashed #4fb5a7;
+	padding-bottom:20px;
+	font-size:18px;
+	margin-bottom:50px;
+}
+.am-tabs-bd .title{
+	text-align:center;
+	padding:10px;
+}
+.am-tabs-bd .text1{
+	color:#4fb5a7;
+	font-size:18px;
+	padding:10px 0px;
+}
+.am-tabs-bd .text2{
+	font-size:18px;
+	color:#999999;
+	padding:5px 0px;
+}
+.am-tabs-bd .text3{
+	background:#ffec4d;
+	margin:10px 0px;
+	padding-left:5px;
+}
+.am-tabs-bd .text3 .num{
+	color:red;
+	font-size:22px;
+}
+.am-tabs-bd .text4{
+	padding:20px;
+}
+.am-tabs-bd .indent30{
+	padding-left:30px;
+}
+.am-tabs-bd .yuan{
+	width:10px;
+	margin:5px;
+}
+.am-tabs-bd .yangli{
+	width:80px;
+	margin: 15px 0px;
+}
+.am-tabs-bd .indent30 .yuan{
+	margin-left:-15px;
+}
+.am-tabs-bd .xuzhi{
+	margin:15px -10px 30px -10px;
+	width:calc(100% + 20px);
+}
+.am-tabs-bd .goumai{
+	width:100px;
+	position:absolute;
+	bottom:-8px;
+	right:20px;
+}
+.tjj-btn-fixed-position-1{
+	z-index:100;
+}
+.modal-buy {
+	font-size:18px;
+}
+.modal-buy .am-modal-dialog{
+	width:96%;
+}
+.modal-buy .am-modal-hd{
+	color:#4fb5a7;
+	text-align:left;
+	padding:30px;
+}
+.modal-buy .am-modal-footer>span{
+	width:50%;
+}
+.modal-buy .option{
+	width:310px;
+	text-align:left;
+	margin:10px auto 10px auto;
+}
+.modal-buy .am-modal-bd{
+	padding-bottom:30px;
+}
+
+#modal-NK .am-modal-bd,#modal-SC .am-modal-bd{
+	overflow-y:scroll;
+	height: 50%;
+	text-align:left;
+}
+#modal-SC .child{
+	border-top:1px solid #c5c5c5;
+	width:calc(100% + 20px);
+	height:100px;
+	padding:10px;
+	margin:0px -10px;
+}
+#modal-SC .child:nth-last-child(1){
+	border-bottom:1px solid #c5c5c5;
+}
+#modal-SC .child.active{
+	border-right:5px solid #3acbb7;
+}
+
+#modal-SC .child>div{
+	height:80px;
+	float:left;
+}
+
+#modal-SC .child>div>div{
+	height:40px;
+	line-height:40px;
+}
+#modal-SC .child .avatar{
+	width:80px;
+	border-radius:40px;
+}
+#modal-SC .child .sc-nickname{
+	color:#3acbb7;
+	top:10px;
+}
+#modal-SC .child .point img{
+	width:20px;
+}

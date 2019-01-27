@@ -1,0 +1,12 @@
+{
+    "name": "start2003/tools",
+    "description": "tools",
+    "authors": [
+        {
+            "name": "tang jiajia",
+            "email": "584231366@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -1,0 +1,12 @@
+{
+    "name": "start2003/superadmin",
+    "description": "superadmin",
+    "authors": [
+        {
+            "name": "tang jiajia",
+            "email": "tang@star2003.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

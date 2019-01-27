@@ -1,0 +1,85 @@
+<?php
+
+return [
+	'top_menu_title' => '优惠券类型管理',
+    'menu_title' => '优惠券类型管理',
+    'head_title' => '优惠券类型管理',
+	'form'=>[
+			'get_rules'=>[
+					'register'=>'会员注册时获得优惠券',
+					'promoted_register'=>'被关联的推广员推广的会员注册时,会员获得优惠券',
+					'become_promoter'=>'成为关联的推广员时获得优惠券',
+					'member_buy'=>'会员购买对应关联的产品时获取优惠券',
+					'promoted_member_buy_tm'=>'被关联的推广员推广的会员购买对应关联的产品时,会员获得优惠券',
+					'promoted_member_buy_tp'=>'被关联的推广员推广的会员购买对应关联的产品时,推广员获得优惠券',
+					'promote_new_member'=>'关联的推广员推广新会员时,推广员获得优惠券',
+					'buy_discount_by_point'=>'积分购买优惠券',
+					'create_first_child_tm'=>'会员创建第一个孩子的时候,会员获取优惠券',
+					'create_first_child_tp'=>'会员创建第一个孩子的时候,关联推广员获取优惠券',
+					'book_comment'=>'会员发表书评时获取',
+					'admin_give'=>'管理员授予',
+			],
+			'status'=>[
+					'0'=>'停用',
+					'1'=>'启用'
+			],
+			'donations'=>[
+					'unable'=>'不可转赠',
+					'to_promoted_member'=>'蕊丁使者优惠券转赠规则（1.可转让给其下新会员使用，转让成功后不可撤销；2.给每一名新会员最多转让一张。 ）',
+			],
+			'get_limits'=>[
+					'0'=>'无限制',
+					'1'=>'该优惠券每个会员仅能获取一次',
+					'2'=>'该优惠券每个会员每月仅能获取一次',
+					'3'=>'该优惠券每个会员每年仅能获取一次',
+					'4'=>'被推广的新会员首次购买关联产品，推广员可获得一次'
+			]
+	],
+	'list'=>[
+			'get_rules'=>[
+					'register'=>'会员注册时获得优惠券',
+					'promoted_register'=>'被关联的推广员推广的会员注册时,会员获得优惠券',
+					'become_promoter'=>'成为关联的推广员时获得优惠券',
+					'member_buy'=>'会员购买对应关联的产品时获取优惠券',
+					'promoted_member_buy_tm'=>'被关联的推广员推广的会员购买对应关联的产品时,会员获得优惠券',
+					'promoted_member_buy_tp'=>'被关联的推广员推广的会员购买对应关联的产品时,推广员获得优惠券',
+					'promote_new_member'=>'关联的推广员推广新会员时,推广员获得优惠券',
+					'buy_discount_by_point'=>'积分购买优惠券',
+					'create_first_child_tm'=>'会员创建第一个孩子的时候,会员获取优惠券',
+					'create_first_child_tp'=>'会员创建第一个孩子的时候,关联推广员获取优惠券',
+					'book_comment'=>'会员发表书评时获取',
+					'admin_give'=>'管理员授予',
+			],
+			'status'=>[
+					'0'=>'停用',
+					'1'=>'启用'
+			],
+			'donations'=>[
+					'0'=>'不可转赠',
+					'1'=>'可转赠1次',
+					'2'=>'可转赠2次',
+					'3'=>'可转赠3次',
+			],
+			'get_limits'=>[
+					'0'=>'无限制',
+					'1'=>'该优惠券每个会员仅能获取一次',
+					'2'=>'该优惠券每个会员每月仅能获取一次',
+					'3'=>'该优惠券每个会员每年仅能获取一次',
+					'4'=>'被推广的新会员首次购买关联产品，推广员可获得一次'
+			]
+	],
+	'attributes'=>[
+			'name'=>'优惠券名称',
+			'price'=>'价格',
+			'days'=>'有效天数',
+			'memo'=>'备注',
+			'get_rule'=>'获取规则',
+			'get_rule_promotions'=>'关联的推广员',
+			'get_rule_products'=>'关联的产品'
+	],
+	'messages'=>[
+			'get_rule.required'=>':attribute为必选项',
+			'get_rule_promotions.required'=>':attribute为必选项',
+			'get_rule_products.required'=>':attribute为必选项'
+	]
+];

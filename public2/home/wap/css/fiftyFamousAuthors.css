@@ -1,0 +1,96 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #ededed;
+}
+
+.quan {
+	width: 100%;
+}
+
+.img-banner {
+	width: 100%;
+}
+
+.wai_kuan {
+	padding: 18px;
+	background: #999;	
+}
+
+.nei {
+	background: #fff;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.wai_kuan {
+	background: #ededed;
+}
+
+.head_tou {
+    width: 70px;
+    /*border:2px solid;*/
+    border-radius:75px;  
+}  
+s
+.nei_jpg {
+	border-radius: 75px;
+    width: 100px; 
+    margin: 20px;
+}
+
+.biaoti {
+	color: #ff6c00;	
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.tutu {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+.duanluo {
+	font-size:14px;
+	color: #666666;
+}
+
+.duanluo p {
+	margin-top:10px;
+	text-align: justify;
+}
+
+.xian {
+    height:1px;border:none;border-top:1px solid #ededed;
+    margin-bottom: 14px;
+}
+
+.img_jpg {
+	width: 30%;
+	border: #999;
+	margin: 0 auto;
+	margin-left: 5px;
+
+}
+
+.bianhao {
+	width: 60px;
+	height: 20px;
+	background:  #ff6c00;
+	border-radius:10px; 
+	margin-top: -10px;
+	margin-left: 6px;
+
+
+}
+
+.bianhao p {
+	color: #fff;
+	margin-left : 8px;
+    font-weight: bold;
+}
+
+.shumin p {
+    font-size:14px;
+    color: #ff6c00;
+} 
